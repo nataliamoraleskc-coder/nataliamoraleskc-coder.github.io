@@ -1,9 +1,4 @@
-/* =========================================================
-   VARIABLES DE COLOR
-   Se definen una sola vez y se reutilizan en todo el sitio
-   con var(--nombre). Si querés cambiar el tono lila general,
-   alcanza con tocar estos valores.
-   ========================================================= */
+/*  VARIABLES DE COLOR */
 :root {
   --bg: #F6F2FB;          /* fondo general de la página */
   --paper: #FFFFFF;        /* fondo de las tarjetas */
@@ -17,10 +12,7 @@
   --mono-tag: #8B5FBF;     /* color de las etiquetas tipo código */
 }
 
-/* =========================================================
-   RESET Y BASE
-   Reglas generales que aplican a toda la página
-   ========================================================= */
+/* Reglas generales que aplican a toda la página */
 * {
   box-sizing: border-box; /* padding y border no agrandan el ancho */
 }
@@ -43,7 +35,7 @@ h1, h2, h3 {
   margin: 0;
 }
 
-/* Elementos que usan tipografía monoespaciada tipo "código" */
+/* Tipografía monoespaciada tipo "código" */
 .mono,
 .tag,
 .eyebrow,
@@ -59,7 +51,7 @@ a {
   color: var(--primary);
 }
 
-/* Textura sutil de cuadrícula en el fondo, fija detrás de todo */
+/* Cuadrícula en el fondo, fija detrás de todo */
 .bg-grid {
   position: fixed;
   inset: 0;
@@ -71,16 +63,14 @@ a {
   opacity: 0.05;
 }
 
-/* Contenedor centrado que usan casi todas las secciones */
+/* Contenedor */
 .wrap {
   max-width: 920px;
   margin: 0 auto;
   padding: 0 28px;
 }
 
-/* =========================================================
-   BANNER SUPERIOR ("SITIO WEB")
-   ========================================================= */
+/* BANNER SUPERIOR ("SITIO WEB") */
 .top-banner {
   text-align: center;
   padding: 44px 20px 8px;
@@ -107,9 +97,7 @@ a {
   letter-spacing: 0.02em;
 }
 
-/* =========================================================
-   HERO (foto + nombre + datos)
-   ========================================================= */
+/* Cuadro principal (foto + nombre + datos) */
 header.hero {
   position: relative;
   padding: 72px 0 96px;
@@ -204,9 +192,7 @@ h1.name {
   box-sizing: border-box;
 }
 
-/* =========================================================
-   SECCIONES DE CONTENIDO (Perfil, Formación, etc.)
-   ========================================================= */
+/* SECCIONES DE CONTENIDO (Perfil, Formación, etc.)*/
 main {
   position: relative;
 }
@@ -249,9 +235,7 @@ p.lead {
   max-width: 62ch; /* limita el ancho de línea para que sea cómodo leer */
 }
 
-/* =========================================================
-   TARJETAS (usadas en Formación, Habilidades, Proyectos)
-   ========================================================= */
+/*  TARJETAS (usadas en Formación, Habilidades, Proyectos)*/
 .card-row {
   display: grid;
   /* columnas automáticas de al menos 230px, se acomodan solas */
@@ -306,9 +290,7 @@ p.lead {
   color: var(--mono-tag);
 }
 
-/* =========================================================
-   BARRA DE PROGRESO DE IDIOMA
-   ========================================================= */
+/* BARRA DE PROGRESO DE IDIOMA */
 .lang-bar-wrap {
   margin-top: 6px;
 }
@@ -334,9 +316,7 @@ p.lead {
   border-radius: 999px;
 }
 
-/* =========================================================
-   PIE DE PÁGINA / CONTACTO
-   ========================================================= */
+/* PIE DE PÁGINA / CONTACTO */
 footer {
   padding: 56px 0 72px;
   background: var(--deep);
@@ -393,9 +373,7 @@ footer p {
   color: rgba(196, 180, 226, 0.6);
 }
 
-/* =========================================================
-   RESPONSIVE Y ACCESIBILIDAD
-   ========================================================= */
+/*  ACCESIBILIDAD */
 
 /* Pantallas chicas (celulares) */
 @media (max-width: 600px) {
