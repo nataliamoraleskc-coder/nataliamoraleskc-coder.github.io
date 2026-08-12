@@ -147,15 +147,17 @@
     font-family: 'Work Sans', sans-serif;
   }
   .ru-tag{
-    display: inline-block;
-    margin-top: 18px;
+    display: inline-flex;
+    align-items: center;
     padding: 6px 12px;
     border: 1px solid rgba(201,166,232,0.45);
     border-radius: 4px;
     font-family: 'JetBrains Mono', monospace;
     font-size: 13px;
+    line-height: 1;
     color: #E4D8F7;
     letter-spacing: 0.03em;
+    box-sizing: border-box;
   }
 
   /* --- Sections as circuit nodes --- */
@@ -345,16 +347,23 @@
   }
 
   .hero-extra-tag{
-    display: inline-block;
-    margin-top: 10px;
-    margin-right: 8px;
+    display: inline-flex;
+    align-items: center;
     padding: 6px 12px;
     border: 1px solid rgba(201,166,232,0.45);
     border-radius: 4px;
     font-family: 'JetBrains Mono', monospace;
     font-size: 13px;
+    line-height: 1;
     color: #E4D8F7;
     letter-spacing: 0.03em;
+    box-sizing: border-box;
+  }
+  .tag-row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
   }
 </style>
 </head>
@@ -376,8 +385,8 @@
       <div class="eyebrow">Perfil académico</div>
       <h1 class="name">Natalia Katerina<br>Morales Corico</h1>
       <div class="role">Estudiante de Ingeniería Electrónica</div>
-      <div class="tag-row" style="margin-top: 18px; display: flex; flex-wrap: wrap; align-items: center;">
-        <div class="ru-tag mono" style="margin-top: 0;">RU 1814663</div>
+      <div class="tag-row" style="margin-top: 18px;">
+        <div class="ru-tag mono">RU 1814663</div>
         <span class="hero-extra-tag">CI: 13247989 LP.</span>
         <span class="hero-extra-tag">La Paz - Bolivia</span>
       </div>
@@ -429,9 +438,51 @@
       </div>
     </section>
 
+    <section id="habilidades">
+      <div class="section-head">
+        <span class="tag">03 · Habilidades</span>
+        <h2 class="section-title">Mis habilidades</h2>
+      </div>
+      <div class="card-row">
+        <div class="card">
+          <h3>Programación</h3>
+          <p>Desarrollo con Python y C/C++, aplicando lógica de programación al diseño de sistemas electrónicos.</p>
+        </div>
+        <div class="card">
+          <h3>IoT</h3>
+          <p>Integración de sensores y microcontroladores para automatizar procesos y conectar dispositivos entre sí.</p>
+        </div>
+        <div class="card">
+          <h3>Electrónica</h3>
+          <p>Diseño y análisis de circuitos, trabajo con microcontroladores, sistemas digitales y sistemas embebidos.</p>
+        </div>
+        <div class="card">
+          <h3>Telecomunicaciones</h3>
+          <p>Nociones de sistemas de comunicación, procesamiento de señales y tecnologías relacionadas al área.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="proyectos">
+      <div class="section-head">
+        <span class="tag">04 · Proyectos</span>
+        <h2 class="section-title">Proyectos</h2>
+      </div>
+      <div class="card-row">
+        <div class="card">
+          <h3>Proyectos universitarios</h3>
+          <p>A lo largo de la carrera diseñé, simulé y analicé circuitos y sistemas electrónicos apoyándome en distintas herramientas de desarrollo y simulación.</p>
+        </div>
+        <div class="card">
+          <h3>Sistemas con microcontroladores</h3>
+          <p>Desarrollé proyectos que combinan microcontroladores, sensores y circuitos electrónicos como parte de mi formación en la universidad.</p>
+        </div>
+      </div>
+    </section>
+
     <section id="idioma">
       <div class="section-head">
-        <span class="tag">03 · Idiomas</span>
+        <span class="tag">05 · Idiomas</span>
         <h2 class="section-title">Inglés en progreso</h2>
       </div>
       <p class="lead" style="margin-bottom: 22px;">
@@ -445,7 +496,7 @@
 
     <section id="actividad">
       <div class="section-head">
-        <span class="tag">04 · Vida universitaria</span>
+        <span class="tag">06 · Vida universitaria</span>
         <h2 class="section-title">Participación activa</h2>
       </div>
       <p class="lead">
@@ -459,7 +510,7 @@
 
 <footer>
   <div class="wrap">
-    <span class="tag mono">05 · Contacto</span>
+    <span class="tag mono">07 · Contacto</span>
     <h2>Hablemos</h2>
     <p>Sitio Web creado para la materia Bases de Datos ETN-1000.</p>
     <div class="contact-links">
