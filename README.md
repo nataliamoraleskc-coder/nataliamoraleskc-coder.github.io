@@ -1,4 +1,3 @@
-# nataliamoraleskc-coder.github.io
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -320,11 +319,43 @@
   @media (prefers-reduced-motion: reduce){
     *{ transition: none !important; scroll-behavior: auto !important; }
   }
+
+  .top-banner{
+    text-align: center;
+    padding: 30px 20px 0;
+  }
+  .top-banner h1.site-title{
+    font-size: clamp(20px, 3vw, 26px);
+    letter-spacing: 0.16em;
+    color: var(--primary);
+    font-weight: 700;
+  }
+  .top-banner p.site-sub{
+    margin-top: 8px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 13px;
+    color: var(--ink-soft);
+    letter-spacing: 0.02em;
+  }
+
+  .hero-extra-tag{
+    display: block;
+    margin-top: 8px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 13px;
+    color: #C6B4E2;
+    letter-spacing: 0.03em;
+  }
 </style>
 </head>
 <body>
 
 <div class="bg-grid"></div>
+
+<div class="top-banner">
+  <p class="site-title">SITIO WEB</p>
+  <p class="site-sub">Te cuento un poco sobre mí</p>
+</div>
 
 <header class="hero">
   <div class="wrap hero-inner">
@@ -336,6 +367,8 @@
       <h1 class="name">Natalia Katerina<br>Morales Corico</h1>
       <div class="role">Estudiante de Ingeniería Electrónica</div>
       <div class="ru-tag mono">RU 1814663</div>
+      <span class="hero-extra-tag">CI: 13247989 LP.</span>
+      <span class="hero-extra-tag">La Paz - Bolivia</span>
     </div>
   </div>
 </header>
@@ -349,10 +382,14 @@
         <h2 class="section-title">Sobre mí</h2>
       </div>
       <p class="lead">
-        Tengo 24 años y curso la carrera de Ingeniería Electrónica desde el segundo semestre de 2021.
-        Además de mis materias de especialidad, participo activamente en la vida universitaria dentro
-        de la mención de Sistemas de Computación, y complemento mi formación con el estudio del idioma
-        inglés en el CETI.
+        Soy boliviana, tengo 24 años y curso la carrera de Ingeniería Electrónica desde el segundo
+        semestre de 2021. Además de mis materias de especialidad, participo activamente en la vida
+        universitaria dentro de la mención de Sistemas de Computación, y complemento mi formación
+        con el estudio del idioma inglés en el CETI.
+      </p>
+      <p class="lead" style="margin-top: 16px;">
+        Terminé el colegio en la Unidad Educativa María Auxiliadora en 2019. Fuera de lo académico,
+        uno de mis hobbies favoritos es jugar volleyball.
       </p>
     </section>
 
@@ -374,7 +411,7 @@
         </div>
         <div class="card">
           <h3>Inglés · CETI</h3>
-          <p>Estudios paralelos del idioma inglés como parte de mi formación complementaria.</p>
+          <p>CETI significa Centro de Enseñanza y Traducción de Idiomas. Curso ahí el idioma inglés como parte de mi formación complementaria.</p>
           <span class="meta">CETI · EN CURSO</span>
         </div>
       </div>
@@ -412,12 +449,12 @@
   <div class="wrap">
     <span class="tag mono">05 · Contacto</span>
     <h2>Hablemos</h2>
-    <p>Este sitio fue creado como tarea introductoria para la materia de Bases de Datos.</p>
+    <p>Sitio Web creado para la materia Bases de Datos ETN-1000.</p>
     <div class="contact-links">
-      <a href="mailto:tu-correo@ejemplo.com">✉ nkmorales@umsa.bo.com</a>
-      <a href="#">in/ 772711810</a>
+      <a href="mailto:nkmorales@umsa.bo">✉ nkmorales@umsa.bo</a>
+      <a href="tel:+59177271181">☎ +591 77271181</a>
     </div>
-    <div class="foot-note">RU 1814663 · Ingeniería Electrónica · 2026</div>
+    <div class="foot-note">Ingeniería Electrónica · 2026</div>
   </div>
 </footer>
 
