@@ -322,28 +322,38 @@
 
   .top-banner{
     text-align: center;
-    padding: 30px 20px 0;
+    padding: 44px 20px 8px;
   }
-  .top-banner h1.site-title{
-    font-size: clamp(20px, 3vw, 26px);
-    letter-spacing: 0.16em;
-    color: var(--primary);
+  .top-banner p.site-title{
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: clamp(38px, 7vw, 64px);
     font-weight: 700;
+    letter-spacing: 0.06em;
+    background: linear-gradient(90deg, var(--deep) 0%, var(--primary) 55%, var(--accent) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    margin: 0;
+    line-height: 1.05;
   }
   .top-banner p.site-sub{
-    margin-top: 8px;
+    margin-top: 12px;
     font-family: 'JetBrains Mono', monospace;
-    font-size: 13px;
+    font-size: 14px;
     color: var(--ink-soft);
     letter-spacing: 0.02em;
   }
 
   .hero-extra-tag{
-    display: block;
-    margin-top: 8px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 8px;
+    padding: 6px 12px;
+    border: 1px solid rgba(201,166,232,0.45);
+    border-radius: 4px;
     font-family: 'JetBrains Mono', monospace;
     font-size: 13px;
-    color: #C6B4E2;
+    color: #E4D8F7;
     letter-spacing: 0.03em;
   }
 </style>
@@ -366,9 +376,11 @@
       <div class="eyebrow">Perfil académico</div>
       <h1 class="name">Natalia Katerina<br>Morales Corico</h1>
       <div class="role">Estudiante de Ingeniería Electrónica</div>
-      <div class="ru-tag mono">RU 1814663</div>
-      <span class="hero-extra-tag">CI: 13247989 LP.</span>
-      <span class="hero-extra-tag">La Paz - Bolivia</span>
+      <div class="tag-row" style="margin-top: 18px; display: flex; flex-wrap: wrap; align-items: center;">
+        <div class="ru-tag mono" style="margin-top: 0;">RU 1814663</div>
+        <span class="hero-extra-tag">CI: 13247989 LP.</span>
+        <span class="hero-extra-tag">La Paz - Bolivia</span>
+      </div>
     </div>
   </div>
 </header>
