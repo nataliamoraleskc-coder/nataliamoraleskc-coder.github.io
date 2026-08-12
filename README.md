@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="es">
 <head>
 <meta charset="UTF-8">
@@ -102,7 +102,7 @@ footer p{color:#C6B4E2;max-width:46ch;margin:0 auto 26px;line-height:1.6;}
   <div class="wrap">
     <section id="perfil">
       <div class="section-head"><span class="tag">01 · Perfil</span><h2 class="section-title">Sobre mí</h2></div>
-      <p class="lead">Soy boliviana, tengo 24 años y curso la carrera de Ingeniería Electrónica desde el segundo semestre de 2021. Además de mis materias de especialidad, participo activamente en la vida universitaria dentro de la mención de Sistemas de Computación, y complemento mi formación con el estudio del idioma inglés en el CETI.</p>
+      <p class="lead">Soy de nacionalidad boliviana, tengo 24 años y curso la carrera de Ingeniería Electrónica desde el segundo semestre de 2021. Además de mis materias de especialidad, participo activamente en la vida universitaria dentro de la mención de Sistemas de Computación, y complemento mi formación con el estudio del idioma inglés en el CETI.</p>
       <p class="lead" style="margin-top:16px;">Terminé el colegio en la Unidad Educativa María Auxiliadora en 2019. Fuera de lo académico, uno de mis hobbies favoritos es jugar volleyball.</p>
     </section>
 
@@ -119,17 +119,16 @@ footer p{color:#C6B4E2;max-width:46ch;margin:0 auto 26px;line-height:1.6;}
       <div class="section-head"><span class="tag">03 · Habilidades</span><h2 class="section-title">Mis habilidades</h2></div>
       <div class="card-row">
         <div class="card"><h3>Programación</h3><p>Desarrollo con Python y C/C++, aplicando lógica de programación al diseño de sistemas electrónicos.</p></div>
-        <div class="card"><h3>IoT</h3><p>Integración de sensores y microcontroladores para automatizar procesos y conectar dispositivos entre sí.</p></div>
+        <div class="card"><h3>IoT</h3><p>Integración de sensores y microcontroladores para automatizar procesos y conectar dispositivos entre sí, con la finalidad de intercomunicarlos.</p></div>
         <div class="card"><h3>Electrónica</h3><p>Diseño y análisis de circuitos, trabajo con microcontroladores, sistemas digitales y sistemas embebidos.</p></div>
-        <div class="card"><h3>Telecomunicaciones</h3><p>Nociones de sistemas de comunicación, procesamiento de señales y tecnologías relacionadas al área.</p></div>
       </div>
     </section>
 
     <section id="proyectos">
       <div class="section-head"><span class="tag">04 · Proyectos</span><h2 class="section-title">Proyectos</h2></div>
       <div class="card-row">
-        <div class="card"><h3>Proyectos universitarios</h3><p>A lo largo de la carrera diseñé, simulé y analicé circuitos y sistemas electrónicos apoyándome en distintas herramientas de desarrollo y simulación.</p></div>
-        <div class="card"><h3>Sistemas con microcontroladores</h3><p>Desarrollé proyectos que combinan microcontroladores, sensores y circuitos electrónicos como parte de mi formación en la universidad.</p></div>
+        <div class="card"><h3>Proyectos universitarios</h3><p>A lo largo de la carrera diseñé, simulé y analicé circuitos y sistemas electrónicos apoyándome en distintas herramientas de desarrollo y simulación. Tanto de manera palpable siendo los circuitos físicos montados, como la parte de software de los mismos.</p></div>
+        <div class="card"><h3>Sistemas con microcontroladores</h3><p>Desarrollé proyectos que combinan microcontroladores, sensores y circuitos electrónicos como parte de mi formación en la universidad, en especial en las materias de Microcontroladores ETN-801 y Teoría de Sistemas Operativos ETN-903.</p></div>
       </div>
     </section>
 
