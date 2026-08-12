@@ -414,8 +414,8 @@
     <h2>Hablemos</h2>
     <p>Este sitio fue creado como tarea introductoria para la materia de Bases de Datos.</p>
     <div class="contact-links">
-      <a href="mailto:tu-correo@ejemplo.com">✉ tu-correo@ejemplo.com</a>
-      <a href="#">in/ tu-linkedin</a>
+      <a href="mailto:tu-correo@ejemplo.com">✉ nkmorales@umsa.bo.com</a>
+      <a href="#">in/ 772711810</a>
     </div>
     <div class="foot-note">RU 1814663 · Ingeniería Electrónica · 2026</div>
   </div>
